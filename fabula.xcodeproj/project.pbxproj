@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4BF5AE72628C25300F7A102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF5AE62628C25300F7A102 /* AppDelegate.swift */; };
+		B4BF5AE92628C25300F7A102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF5AE82628C25300F7A102 /* ContentView.swift */; };
+		B4BF5AEB2628C25600F7A102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BF5AEA2628C25600F7A102 /* Assets.xcassets */; };
+		B4BF5AEE2628C25600F7A102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BF5AED2628C25600F7A102 /* Preview Assets.xcassets */; };
+		B4BF5AF12628C25600F7A102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BF5AEF2628C25600F7A102 /* Main.storyboard */; };
+		B4BF5AFD2628C25600F7A102 /* fabulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF5AFC2628C25600F7A102 /* fabulaTests.swift */; };
+		B4BF5B082628C25600F7A102 /* fabulaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF5B072628C25600F7A102 /* fabulaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4BF5AF92628C25600F7A102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4BF5ADB2628C25200F7A102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4BF5AE22628C25300F7A102;
+			remoteInfo = fabula;
+		};
+		B4BF5B042628C25600F7A102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4BF5ADB2628C25200F7A102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4BF5AE22628C25300F7A102;
+			remoteInfo = fabula;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4BF5AE32628C25300F7A102 /* fabula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fabula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BF5AE62628C25300F7A102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4BF5AE82628C25300F7A102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4BF5AEA2628C25600F7A102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4BF5AED2628C25600F7A102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4BF5AF02628C25600F7A102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4BF5AF22628C25600F7A102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4BF5AF32628C25600F7A102 /* fabula.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fabula.entitlements; sourceTree = "<group>"; };
+		B4BF5AF82628C25600F7A102 /* fabulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fabulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BF5AFC2628C25600F7A102 /* fabulaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabulaTests.swift; sourceTree = "<group>"; };
+		B4BF5AFE2628C25600F7A102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4BF5B032628C25600F7A102 /* fabulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fabulaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BF5B072628C25600F7A102 /* fabulaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabulaUITests.swift; sourceTree = "<group>"; };
+		B4BF5B092628C25600F7A102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4BF5AE02628C25300F7A102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BF5AF52628C25600F7A102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BF5B002628C25600F7A102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4BF5ADA2628C25200F7A102 = {
+			isa = PBXGroup;
+			children = (
+				B4BF5AE52628C25300F7A102 /* fabula */,
+				B4BF5AFB2628C25600F7A102 /* fabulaTests */,
+				B4BF5B062628C25600F7A102 /* fabulaUITests */,
+				B4BF5AE42628C25300F7A102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4BF5AE42628C25300F7A102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4BF5AE32628C25300F7A102 /* fabula.app */,
+				B4BF5AF82628C25600F7A102 /* fabulaTests.xctest */,
+				B4BF5B032628C25600F7A102 /* fabulaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4BF5AE52628C25300F7A102 /* fabula */ = {
+			isa = PBXGroup;
+			children = (
+				B4BF5AE62628C25300F7A102 /* AppDelegate.swift */,
+				B4BF5AE82628C25300F7A102 /* ContentView.swift */,
+				B4BF5AEA2628C25600F7A102 /* Assets.xcassets */,
+				B4BF5AEF2628C25600F7A102 /* Main.storyboard */,
+				B4BF5AF22628C25600F7A102 /* Info.plist */,
+				B4BF5AF32628C25600F7A102 /* fabula.entitlements */,
+				B4BF5AEC2628C25600F7A102 /* Preview Content */,
+			);
+			path = fabula;
+			sourceTree = "<group>";
+		};
+		B4BF5AEC2628C25600F7A102 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4BF5AED2628C25600F7A102 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4BF5AFB2628C25600F7A102 /* fabulaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4BF5AFC2628C25600F7A102 /* fabulaTests.swift */,
+				B4BF5AFE2628C25600F7A102 /* Info.plist */,
+			);
+			path = fabulaTests;
+			sourceTree = "<group>";
+		};
+		B4BF5B062628C25600F7A102 /* fabulaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4BF5B072628C25600F7A102 /* fabulaUITests.swift */,
+				B4BF5B092628C25600F7A102 /* Info.plist */,
+			);
+			path = fabulaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4BF5AE22628C25300F7A102 /* fabula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BF5B0C2628C25600F7A102 /* Build configuration list for PBXNativeTarget "fabula" */;
+			buildPhases = (
+				B4BF5ADF2628C25300F7A102 /* Sources */,
+				B4BF5AE02628C25300F7A102 /* Frameworks */,
+				B4BF5AE12628C25300F7A102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fabula;
+			productName = fabula;
+			productReference = B4BF5AE32628C25300F7A102 /* fabula.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4BF5AF72628C25600F7A102 /* fabulaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BF5B0F2628C25600F7A102 /* Build configuration list for PBXNativeTarget "fabulaTests" */;
+			buildPhases = (
+				B4BF5AF42628C25600F7A102 /* Sources */,
+				B4BF5AF52628C25600F7A102 /* Frameworks */,
+				B4BF5AF62628C25600F7A102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4BF5AFA2628C25600F7A102 /* PBXTargetDependency */,
+			);
+			name = fabulaTests;
+			productName = fabulaTests;
+			productReference = B4BF5AF82628C25600F7A102 /* fabulaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4BF5B022628C25600F7A102 /* fabulaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4BF5B122628C25600F7A102 /* Build configuration list for PBXNativeTarget "fabulaUITests" */;
+			buildPhases = (
+				B4BF5AFF2628C25600F7A102 /* Sources */,
+				B4BF5B002628C25600F7A102 /* Frameworks */,
+				B4BF5B012628C25600F7A102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4BF5B052628C25600F7A102 /* PBXTargetDependency */,
+			);
+			name = fabulaUITests;
+			productName = fabulaUITests;
+			productReference = B4BF5B032628C25600F7A102 /* fabulaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4BF5ADB2628C25200F7A102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B4BF5AE22628C25300F7A102 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B4BF5AF72628C25600F7A102 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B4BF5AE22628C25300F7A102;
+					};
+					B4BF5B022628C25600F7A102 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B4BF5AE22628C25300F7A102;
+					};
+				};
+			};
+			buildConfigurationList = B4BF5ADE2628C25300F7A102 /* Build configuration list for PBXProject "fabula" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4BF5ADA2628C25200F7A102;
+			productRefGroup = B4BF5AE42628C25300F7A102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4BF5AE22628C25300F7A102 /* fabula */,
+				B4BF5AF72628C25600F7A102 /* fabulaTests */,
+				B4BF5B022628C25600F7A102 /* fabulaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4BF5AE12628C25300F7A102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BF5AF12628C25600F7A102 /* Main.storyboard in Resources */,
+				B4BF5AEE2628C25600F7A102 /* Preview Assets.xcassets in Resources */,
+				B4BF5AEB2628C25600F7A102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BF5AF62628C25600F7A102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BF5B012628C25600F7A102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4BF5ADF2628C25300F7A102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BF5AE92628C25300F7A102 /* ContentView.swift in Sources */,
+				B4BF5AE72628C25300F7A102 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BF5AF42628C25600F7A102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BF5AFD2628C25600F7A102 /* fabulaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BF5AFF2628C25600F7A102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BF5B082628C25600F7A102 /* fabulaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4BF5AFA2628C25600F7A102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4BF5AE22628C25300F7A102 /* fabula */;
+			targetProxy = B4BF5AF92628C25600F7A102 /* PBXContainerItemProxy */;
+		};
+		B4BF5B052628C25600F7A102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4BF5AE22628C25300F7A102 /* fabula */;
+			targetProxy = B4BF5B042628C25600F7A102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4BF5AEF2628C25600F7A102 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4BF5AF02628C25600F7A102 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4BF5B0A2628C25600F7A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4BF5B0B2628C25600F7A102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B4BF5B0D2628C25600F7A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fabula/fabula.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"fabula/Preview Content\"";
+				DEVELOPMENT_TEAM = ZA4G6SLNDJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = fabula/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrelabs.fabula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B4BF5B0E2628C25600F7A102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fabula/fabula.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"fabula/Preview Content\"";
+				DEVELOPMENT_TEAM = ZA4G6SLNDJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = fabula/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrelabs.fabula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B4BF5B102628C25600F7A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZA4G6SLNDJ;
+				INFOPLIST_FILE = fabulaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrelabs.fabulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fabula.app/Contents/MacOS/fabula";
+			};
+			name = Debug;
+		};
+		B4BF5B112628C25600F7A102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZA4G6SLNDJ;
+				INFOPLIST_FILE = fabulaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrelabs.fabulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fabula.app/Contents/MacOS/fabula";
+			};
+			name = Release;
+		};
+		B4BF5B132628C25600F7A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZA4G6SLNDJ;
+				INFOPLIST_FILE = fabulaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrelabs.fabulaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = fabula;
+			};
+			name = Debug;
+		};
+		B4BF5B142628C25600F7A102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZA4G6SLNDJ;
+				INFOPLIST_FILE = fabulaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrelabs.fabulaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = fabula;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4BF5ADE2628C25300F7A102 /* Build configuration list for PBXProject "fabula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BF5B0A2628C25600F7A102 /* Debug */,
+				B4BF5B0B2628C25600F7A102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BF5B0C2628C25600F7A102 /* Build configuration list for PBXNativeTarget "fabula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BF5B0D2628C25600F7A102 /* Debug */,
+				B4BF5B0E2628C25600F7A102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BF5B0F2628C25600F7A102 /* Build configuration list for PBXNativeTarget "fabulaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BF5B102628C25600F7A102 /* Debug */,
+				B4BF5B112628C25600F7A102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BF5B122628C25600F7A102 /* Build configuration list for PBXNativeTarget "fabulaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BF5B132628C25600F7A102 /* Debug */,
+				B4BF5B142628C25600F7A102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4BF5ADB2628C25200F7A102 /* Project object */;
+}
