@@ -1,0 +1,10 @@
+## CocoaPods
+Pods/CocoaPodsKeys
+
+## Generated
+build/
+DerivedData/
+
+xcuserdata/
+
+*.DS_Store
